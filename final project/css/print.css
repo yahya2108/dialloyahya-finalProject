@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, nav, main, section {
+    display: block;
+    page-break-inside: avoid;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    page-break-after: avoid;
+}
+
+header h1 {
+    font-size: 24pt;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12pt;
+    padding: 0.5rem;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 12pt;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: none;
+}
+
+.car-item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    page-break-before: always;
+}
